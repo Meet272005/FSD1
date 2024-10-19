@@ -1,0 +1,123 @@
+<!---Label Structure-->>
+<!-- <html>
+<head>
+    <title>Form Practice</title>
+</head>
+<body>
+    <form action="Task2.html" method="Get" >
+        <fieldset>
+            <legend> Signup </legend>
+            <label>Name</label>
+            <input type="text" placeholder="Enter Name" required>
+            <br>
+            <label>Password</label>
+            <input type="password" placeholder="Enter Password" minlength=7>
+            <br>
+            <input type="submit"> <input type="reset">
+        </fieldset>
+    </form>
+    
+</body>
+</html> -->
+
+<!-- Table Structure-->
+<html>
+<head>
+    <title>Form Practice</title>
+</head>
+<body>
+    <form action="Task2.html" method="Get" >
+        <fieldset>
+            <legend> Signup </legend>
+            <table cellpadding="5" rules="all" >
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" placeholder="Enter Name" required></td>
+                </tr>
+                <tr> 
+                    <td>Password</td>
+                    <td><input type="password" placeholder="Enter Password" minlength=7></td>
+                </tr>
+                <tr>
+                    <td>Gender </td>
+                    <td>
+                        <label>
+                            <input type="radio" name="Gender" value="Male" > Male 
+                            <input type="radio" name="Gender" value="other"> Female
+                            <input type="radio" name="Gender" value="other"> Other
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Subject </td>
+                    <td>
+                        <label>
+                            <input type="checkbox" name="sub" value="Python" > Python 
+                            <input type="checkbox" name="sub" value="FSD"> FSD
+                            <input type="checkbox" name="sub" value="DE"> DE
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Price</td>
+                    <td><input type="range" min=0 max=10000 step=100 oninput="num.value=this.value">
+                    <input type="text" disabled id="num"></td>
+                </tr>
+                <tr>
+                    <td>Date</td>
+                    <td><input type="date"> </td>
+                </tr>
+                <tr>
+                    <td>Color</td>
+                    <td><input type="color"></td>
+                <tr>
+                    <td>File</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>Image</td>
+                    <td><input type="image"></td>
+                </tr>
+                <tr>
+                    <td>Search</td>
+                    <td><input type="search"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Button</td>
+                    <td><input type="button" value="Press me"></td>
+                    <!-- 
+                    <td><input type="month"></td>
+                    <td><input type="time"></td>
+                    <td><input type="week"></td> -->
+                </tr>
+                <tr>
+                    <td>Area</td>
+                   <td>
+                        <select>
+                            <option selected hidden> Select Area </option>
+                            <optgroup label="Ahmedabad">
+                                <option  value="Maninagar">Maninagar</option>
+                                <option  value="Bopal">Bopal</option>
+                                <option  value="Ranip">Ranip</option>
+                            </optgroup>
+                            <optgroup label="Gandhinagar">
+                                <option  value="Sector-1">Sector-1</option>
+                                <option  value="Sector-2">Sector-2</option>
+                                <option  value="Sector-3">Sector-3</option>
+                            </optgroup>
+                        </select>
+                   </td>
+                </tr>
+                <tr>
+                    <td><input type="submit"></td><td><input type="reset"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
